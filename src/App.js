@@ -55,6 +55,7 @@ function App() {
   return (
     <>
       <h1>Convert</h1>
+      <div className='from'>Change From</div>
       <CurrencyList
         currencyOptions={currencyOptions}
         selectedCurrency={fromCurrency}
@@ -63,6 +64,7 @@ function App() {
         amount={fromAmount}
       />
       <div className="equals">=</div>
+      <div className='from'>Change To</div>
       <CurrencyList
         currencyOptions={currencyOptions}
         selectedCurrency={toCurrency}

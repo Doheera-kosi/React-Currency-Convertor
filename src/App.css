@@ -16,14 +16,26 @@ h1 {
   border: 1px solid #333;
   border-radius: 0.3em;
   padding: .25em;
-  width: 7em;
+  width: 20em;
+  height: 2em;
 }
 
 select {
   margin-left: 0.5em;
+  height: 2.5em;
+  width: 6em;
+  border-radius: 0.3em;
 }
 
 .equals {
   font-weight: bold;
-  font-size: 2em;
+  font-size: 3em;
+  color: white;
+}
+
+.from {
+  font-weight: bold;
+  color: black;
+  display: flex;
+  margin-bottom: 0.5em;
 }
